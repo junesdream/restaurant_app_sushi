@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="assets/img/favicon.png"
+			type="image/x-icon"
+		/>
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="style.css" />
+
+		<title>Shushi Time</title>
+	</head>
+	<body>
+		<!--==================== HEADER ====================-->
+		<header class="header" id="header">
+			<nav class="nav container">
+				<a href="#" class="nav__logo">
+					<img src="images/sushilogo-1.png" alt="logo image" />
+					Sushi
+				</a>
+				<div class="nav__menu" id="nav-menu">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="#home" class="nav__link active-link">Home</a>
+						</li>
+
+						<li class="nav__item">
+							<a href="#about" class="nav__link">About us</a>
+						</li>
+
+						<li class="nav__item">
+							<a href="#popular" class="nav__link">Popular</a>
+						</li>
+
+						<li class="nav__item">
+							<a href="#recently" class="nav__link">Recently</a>
+						</li>
+					</ul>
+					<!-- Close button -->
+					<div class="nav__close" id="nav-close">
+						<i class="ri-close-circle-fill"></i>
+					</div>
+					<img
+						src="images/bambubranch-2.png"
+						alt="nav image"
+						class="nav__img-1"
+					/>
+					<img
+						src="images/bambubranch-1.png"
+						alt="nav image"
+						class="nav__img-2"
+					/>
+				</div>
+				<div class="nav__buttons">
+					<!--  Thema change button -->
+					 <i class="ri-moon-fill change-theme" id="theme-button"></i>
+
+					<!--  Toggle button -->
+					<div class="nav__toggle" id="nav-toggle">
+						<i class="ri-apps-fill"></i>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!--==================== MAIN ====================-->
+		<main class="main">
+			<!--==================== HOME ====================-->
+			<section class="home section" id="home">
+				<div class="home__container container grid">
+					<img
+						src="images/sushi-3.png"
+						alt="home image"
+						class="home__img"
+					/>
+
+					<div class="home__data">
+						<h1 class="home__title">
+							Enjoy Delicious
+							<div>
+								<img
+									src="images/sushilogo-2.png"
+									alt="home image"
+								/>
+								Sushi Food
+							</div>
+						</h1>
+
+						<p class="home__description">
+							Enjoy a good dinner with the best dishes in the
+							green restuarant and improve your day!
+						</p>
+						<a href="" class="button">
+							Order Now <i class="ri-arrow-right-fill"></i>
+						</a>
+					</div>
+				</div>
+
+				<img
+					src="images/bambubranch-4.png"
+					alt="home image"
+					class="home__leaf-1"
+				/>
+				<img
+					src="images/bambubranch-5.png"
+					alt="home image"
+					class="home__leaf-2"
+				/>
+			</section>
+
+			<!--==================== ABOUT ====================-->
+			<section class="about section" id="about">
+				<div class="about__container constiner grid">
+					<div class="about__data">
+						<span class="section__subtitle">About Us</span>
+						<h2 class="section__title about__title">
+							<div>
+								We Provide
+								<img
+									src="images/sushi-1.png"
+									alt="about image"
+								/>
+							</div>
+
+							Healthy Food
+						</h2>
+
+						<p class="about__description">
+							Food comes to us from out realtives, whether they
+							have wings or roots. This is how we consider food,
+							it also has a culture. It has a history that passes
+							from generation to generation.
+						</p>
+					</div>
+
+					<img
+						src="images/sushi-about.png"
+						alt="about image"
+						class="about__img"
+					/>
+				</div>
+				<img
+					src="images/bambubranch-2.png"
+					alt="about image"
+					class="about__leaf"
+				/>
+			</section>
+
+			<!--==================== POPULAR ====================-->
+			<section class="popular section" id="popular">
+				<span class="section__subtitle">The Best Food</span>
+				<h2 class="section__title">Popular Dishes</h2>
+
+				<div class="popular__container container grid">
+					<!--==================== Dish 1 ====================-->
+					<article class="popular__card">
+						<img
+							src="images/popular-1.png"
+							alt="popular image"
+							class="popular__img"
+						/>
+
+						<h3 class="popular__name">Nigiri Selection</h3>
+						<span class="popular__description">Japanes Dish</span>
+
+						<span class="popular__price">13.99 €</span>
+
+						<button class="popular__button">
+							<i class="ri-shopping-bag-line"></i>
+						</button>
+					</article>
+					<!--==================== Dish 2 ====================-->
+					<article class="popular__card">
+						<img
+							src="images/popular-2.png"
+							alt="popular image"
+							class="popular__img"
+						/>
+
+						<h3 class="popular__name">Five Nigiris</h3>
+						<span class="popular__description">Japanes Dish</span>
+
+						<span class="popular__price">8.99 €</span>
+
+						<button class="popular__button">
+							<i class="ri-shopping-bag-line"></i>
+						</button>
+					</article>
+					<!--==================== Dish 3 ====================-->
+					<article class="popular__card">
+						<img
+							src="images/popular-3.png"
+							alt="popular image"
+							class="popular__img"
+						/>
+
+						<h3 class="popular__name">Vegan Insideout Rolls</h3>
+						<span class="popular__description"
+							>Asian Fusion Dish</span
+						>
+
+						<span class="popular__price">4.99 €</span>
+
+						<button class="popular__button">
+							<i class="ri-shopping-bag-line"></i>
+						</button>
+					</article>
+					<!--==================== Dish 4 ====================-->
+					<article class="popular__card">
+						<img
+							src="images/popular-4.png"
+							alt="popular image"
+							class="popular__img"
+						/>
+
+						<h3 class="popular__name">Maki Selection</h3>
+						<span class="popular__description">Japanes Dish</span>
+
+						<span class="popular__price">11.99 €</span>
+
+						<button class="popular__button">
+							<i class="ri-shopping-bag-line"></i>
+						</button>
+					</article>
+					<!--==================== Dish 5 ====================-->
+					<article class="popular__card">
+						<img
+							src="images/popular-5.png"
+							alt="popular image"
+							class="popular__img"
+						/>
+
+						<h3 class="popular__name">Salmon Rolls</h3>
+						<span class="popular__description">Fusion Dish</span>
+
+						<span class="popular__price">7.99 €</span>
+
+						<button class="popular__button">
+							<i class="ri-shopping-bag-line"></i>
+						</button>
+					</article>
+
+            <!--==================== Dish 6 ====================-->
+            <article class="popular__card">
+						<img
+							src="images/popular-7.png"
+							alt="popular image"
+							class="popular__img"
+						/>
+
+						<h3 class="popular__name">Maki meets Sashimi</h3>
+						<span class="popular__description">Japanes Dish</span>
+
+						<span class="popular__price">11.99 €</span>
+
+						<button class="popular__button">
+							<i class="ri-shopping-bag-line"></i>
+						</button>
+					</article>
+				</div>
+			</section>
+
+			<!--==================== RECENTLY ====================-->
+			<section class="recently section" id="recently">
+				<div class="recently__container container grid">
+					<div class="recently__data">
+						<span class="section__subtitle">Recently Added</span>
+						<h2 class="section__title">
+							Sushi Samurai <br />
+							Salmon Cheese
+						</h2>
+
+						<p class="recently__description">
+							Take a look at what's new. And don't deprive
+							yourself of a good meal, enjoy and be happy.
+						</p>
+
+						<a href="#" class="button">
+							Order Now <i class="ri-arrow-right-fill"></i>
+						</a>
+
+						<img
+							src="images/seeweed-leaf.png"
+							alt="recently image"
+							class="recently__data-img"
+						/>
+					</div>
+
+					<img
+						src="images/popular-6.png"
+						alt="recently image"
+						class="recently__img"
+					/>
+				</div>
+
+				<img
+					src="images/bambubranch-1.png"
+					alt="recently image"
+					class="recently__leaf-1"
+				/>
+				<img
+					src="images/bambubranch-4.png"
+					alt="recently image"
+					class="recently__leaf-2"
+				/>
+			</section>
+
+			<!--==================== NEWSLETTER ====================-->
+			<section class="newsletter section">
+				<div class="newsletter__container">
+					<div class="newsletter__content grid">
+						<img
+							src="images/sushilogo-3.png"
+							alt="newsletter image"
+							class="newsletter__img"
+						/>
+
+						<div class="newsletter__data">
+							<span class="section__subtitle">Newsletter</span>
+							<h2 class="section__title">
+								Subscribe For <br />
+								Offer Updates
+							</h2>
+
+							<form action="" class="newsletter__form">
+								<input
+									type="email"
+									placeholder="Enter Email"
+									class="newsletter__input"
+								/>
+								<button class="button newsletter__button">
+									Subscribe <i class="ri-mail-send-fill"></i>
+								</button>
+							</form>
+						</div>
+					</div>
+
+					<img
+						src="images/seeweed-leaf.png"
+						alt="newsletter image"
+						class="newsletter__seeweed"
+					/>
+				</div>
+			</section>
+		</main>
+
+		<!--==================== FOOTER ====================-->
+		<footer class="footer">
+            <div class="footer__container container grid">
+                <div> 
+                <a href="#" class="footer__logo">
+                    <img src="images/sushilogo-5.png" alt="logo imgae">
+                    Sushi
+                </a>
+                <p class="footer__description">
+                    Food for the body is not <br>
+                    enough. There must be food <br>
+                    for the soul.
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">Main Menu</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="" class="footer__link">About</a>
+                        </li>
+
+                        <li>
+                            <a href="" class="footer__link">Menus</a>
+                        </li>
+
+                        <li>
+                            <a href="" class="footer__link">Offer</a>
+                        </li>
+
+                        <li>
+                            <a href="" class="footer__link">Events</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Information</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="" class="footer__link">Contact</a>
+                        </li>
+
+                        <li>
+                            <a href="" class="footer__link">Order & Returns</a>
+                        </li>
+
+                        <li>
+                            <a href="" class="footer__link">Videos</a>
+                        </li>
+
+                        <li>
+                            <a href="" class="footer__link">Reservation</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Adress</h3>
+                    <ul class="footer__links">
+                        <li class="footer__information">
+                        Kielufer 65 
+                        12094 Berlin, Germany
+                        </li>
+
+                        <li class="footer__information">
+                            11 - 22 Uhr
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Social Media</h3>
+                    <ul class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-circle-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <img src="images/cucumber.png" alt="footer image" class="footer__cucumber">
+            <img src="images/avocado.png" alt="footer image" class="footer__avocado">
+            <img src="images/lotusroot.png" alt="footer image" class="footer__lotusroot">
+            </div> 
+
+            <div class="footer__info container">
+                <div class="footer__card">
+                    <img src="images/footer-card-1.png" alt="footer image">
+                    <img src="images/footer-card-2.png" alt="footer image">
+                    <img src="images/footer-card-3.png" alt="footer image">
+                    <img src="images/footer-card-4.png" alt="footer image">
+                </div>
+
+                <span class="footer__copy">
+                    &#169; Copyright rainbowdev.
+                </span>
+            </div>
+        </footer>
+
+		<!--========== SCROLL UP ==========-->
+        <a href="" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-fill"></i>
+        </a>
+		<!--=============== SCROLLREVEAL ===============-->
+		<script src="https://unpkg.com/scrollreveal"></script>
+
+		<!--=============== MAIN JS ===============-->
+		<script src="main.js"></script>
+	</body>
+</html>
